@@ -1,0 +1,8 @@
+.card{
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://media.istockphoto.com/photos/old-blank-ripped-torn-paper-crumpled-creased-colorful-posters-grunge-picture-id1223054068?b=1&k=20&m=1223054068&s=170667a&w=0&h=c3Ckxe765kxTebtO9NYaAxjd6CuYML-J6oV8L-5CdF8=);
+}
+.card:hover img{
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+}
