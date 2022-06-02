@@ -4,15 +4,17 @@
         <p><button mat-button>Acerca De</button></p>
     </mat-sidenav>
 
-    <mat-sidenav-content class="navbar navbar-dark fixed-top">
-        <button class="btn" mat-icon-button (click)="sidenav.open()"><mat-icon>menu</mat-icon></button>
-        <img src="../../../assets/imgs/logoblanco-sinfondo.png" width="50rem" alt="">
-        <button class="btn" mat-icon-button>
-                        <mat-icon>favorite</mat-icon>
-                    </button>
+    <div class="navbar navbar-dark fixed-top">
+        <button class="btn ms-2" mat-icon-button (click)="sidenav.open()"><mat-icon>menu</mat-icon></button>
+        <a class=" ms-auto" href="">
+            <img src="../../../assets/imgs/logoblanco-sinfondo.png" width="70rem" alt="">
+        </a>
+        <button class="ms-auto btn" mat-icon-button>
+                            <mat-icon>favorite</mat-icon>
+        </button>
         <button class="btn" mat-icon-button> 
-                        <mat-icon>search</mat-icon>
-                </button>
+                            <mat-icon>search</mat-icon>
+        </button>
 
-    </mat-sidenav-content>
+    </div>
 </mat-sidenav-container>
