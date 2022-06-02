@@ -1,18 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from './card/card.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { ComponentesFijosModule } from '../componentes-fijos/componentes-fijos.module';
 
 
 
 @NgModule({
   declarations: [
-    CardComponent
+    CardComponent,
+    CarouselComponent
   ],
   exports:[
-    CardComponent
+    CardComponent,
+    CarouselComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ComponentesFijosModule
   ]
 })
 export class ComponentsModule { }
