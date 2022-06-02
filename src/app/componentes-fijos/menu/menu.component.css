@@ -10,10 +10,10 @@ mat-sidenav-container {
     background: none;
 }
 
+
 .fixed-top {
     position: fixed!important;
 }
-
 .btn {
     color: white;
 }
