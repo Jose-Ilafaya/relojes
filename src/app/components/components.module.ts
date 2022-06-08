@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CardComponent } from './card/card.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ComponentesFijosModule } from '../componentes-fijos/componentes-fijos.module';
+import { MaterialModule } from '../material/material.module';
 
 
 
@@ -17,7 +18,8 @@ import { ComponentesFijosModule } from '../componentes-fijos/componentes-fijos.m
   ],
   imports: [
     CommonModule,
-    ComponentesFijosModule
+    ComponentesFijosModule,
+    MaterialModule
   ]
 })
 export class ComponentsModule { }
