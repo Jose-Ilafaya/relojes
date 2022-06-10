@@ -11,8 +11,10 @@ export class RelojServiceService {
   private relojUrl= "assets/data/reloj-data.json" 
 
   constructor(private http:HttpClient) { }
-  
-  getDataReloj():Observable<any>{ //
+  getDataReloj():Observable<Reloj[]>{
     return this.http.get<Reloj[]>(this.relojUrl)
   }
+  /*getDataReloj():Observable<Reloj>{ //
+    //return this.http.get<Reloj[]>(this.relojUrl)
+  }*/
 }
