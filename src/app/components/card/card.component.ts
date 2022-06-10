@@ -7,7 +7,7 @@ import { RelojServiceService } from 'src/app/services/reloj-service.service';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
- public relojes:any=[];
+ //public relojes:reloj[]=[];
 //reloj!:Relojes;                            
 //para agregar al constructor (private relojService:RelojService)
 //ngOnInit{this.relojservice.getDataReloj().subscribe((resp:RelojDescripcion[]=>{this.infoRelojes=resp;}))}

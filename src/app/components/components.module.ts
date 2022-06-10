@@ -4,17 +4,22 @@ import { CardComponent } from './card/card.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ComponentesFijosModule } from '../componentes-fijos/componentes-fijos.module';
 import { MaterialModule } from '../material/material.module';
+import { ColeccionesComponent } from './colecciones/colecciones.component';
+import { CardColeccionComponent } from './card-coleccion/card-coleccion.component';
 
 
 
 @NgModule({
   declarations: [
     CardComponent,
-    CarouselComponent
+    CarouselComponent,
+    ColeccionesComponent,
+    CardColeccionComponent
   ],
   exports:[
     CardComponent,
-    CarouselComponent
+    CarouselComponent,
+    ColeccionesComponent
   ],
   imports: [
     CommonModule,

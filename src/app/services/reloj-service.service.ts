@@ -12,8 +12,12 @@ export class RelojServiceService {
 
   constructor(private http:HttpClient) { }
   getDataReloj():Observable<Reloj[]>{
-    return this.http.get<Reloj[]>(this.relojUrl)
+    return this.http.get<Reloj[]>(this.relojUrl);
   }
+  EditarReloj(){
+
+  }
+  
   /*getDataReloj():Observable<Reloj>{ //
     //return this.http.get<Reloj[]>(this.relojUrl)
   }*/
