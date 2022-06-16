@@ -5,7 +5,9 @@
     left: 0;
     right: 0;
 }
-
+.sidenav{
+    position: fixed;
+}
 mat-sidenav-container {
     background: none;
 }
@@ -16,4 +18,8 @@ mat-sidenav-container {
 
 .btn {
     color: white;
+}
+
+.mat-drawer-transition .mat-drawer-backdrop{
+    position: fixed;
 }
