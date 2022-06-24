@@ -6,6 +6,7 @@ import { ComponentesFijosModule } from '../componentes-fijos/componentes-fijos.m
 import { MaterialModule } from '../material/material.module';
 import { ColeccionesComponent } from './colecciones/colecciones.component';
 import { CardColeccionComponent } from './card-coleccion/card-coleccion.component';
+import { BannerComponent } from './banner/banner.component';
 
 
 
@@ -14,12 +15,14 @@ import { CardColeccionComponent } from './card-coleccion/card-coleccion.componen
     CardComponent,
     CarouselComponent,
     ColeccionesComponent,
-    CardColeccionComponent
+    CardColeccionComponent,
+    BannerComponent
   ],
   exports:[
     CardComponent,
     CarouselComponent,
-    ColeccionesComponent
+    ColeccionesComponent,
+    BannerComponent
   ],
   imports: [
     CommonModule,

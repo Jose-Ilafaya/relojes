@@ -1,15 +1,6 @@
-.example-container {
-    position: inherit;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.sidenav{
-    position: fixed;
-}
-mat-sidenav-container {
-    background: none;
+.navbar {
+    background: none!important;
+    font-size: 1.2rem;
 }
 
 .fixed-top {
@@ -20,6 +11,6 @@ mat-sidenav-container {
     color: white;
 }
 
-.mat-drawer-transition .mat-drawer-backdrop{
+.mat-drawer-transition .mat-drawer-backdrop {
     position: fixed;
 }

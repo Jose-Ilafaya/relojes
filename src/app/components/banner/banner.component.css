@@ -1,0 +1,9 @@
+.banner {
+    background-color: #1B1C1E;
+}
+
+.texto-banner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

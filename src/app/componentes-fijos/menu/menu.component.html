@@ -1,3 +1,4 @@
+<!--
 <mat-sidenav-container class="example-container" (backdropClick)="close('backdrop')">
     <mat-sidenav class="sidenav" #sidenav (keydown.escape)="close('escape')" disableClose>
         <p><button mat-button (click)="close('toggle button')">Toggle</button></p>
@@ -17,3 +18,30 @@
         </button>
     </div>
 </mat-sidenav-container>
+-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../../assets/imgs/logoblanco-sinfondo.png " width="70rem " alt=" ">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class=" nav-item ">
+                    <a class="nav-link active " aria-current="page " href="# ">Services</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# ">Collections</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# ">About us</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link disabled ">Support</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
