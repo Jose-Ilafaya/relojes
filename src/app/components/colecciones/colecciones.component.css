@@ -1,4 +1,24 @@
 .container-fluid {
-    color: #1B1C1E;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /*clip-path: polygon(0 6%, 100% 0, 100% 94%, 1% 100%);*/
+    color: #fffffe;
     text-align: center;
+    background-image: url(https://besthqwallpapers.com/Uploads/4-5-2020/131705/thumb2-gray-abstraction-background-gray-background-with-gold-lines-black-background-luxury-backgrounds.jpg);
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*.sesgo-abajo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 20vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}*/
