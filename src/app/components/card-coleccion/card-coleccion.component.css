@@ -1,5 +1,4 @@
 .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
 }
 
@@ -9,4 +8,8 @@
     backdrop-filter: blur( 10px);
     -webkit-backdrop-filter: blur( 10px);
     border-radius: 10px;
+}
+
+.titulo {
+    color: var(--bs-texto);
 }

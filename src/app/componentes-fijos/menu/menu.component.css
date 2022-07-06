@@ -1,6 +1,6 @@
 .navbar {
     background: none!important;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .fixed-top {
@@ -8,7 +8,7 @@
 }
 
 .btn {
-    color: white;
+    color: var(--bs-texto);
 }
 
 .mat-drawer-transition .mat-drawer-backdrop {

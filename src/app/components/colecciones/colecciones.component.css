@@ -1,8 +1,7 @@
 .container-fluid {
     padding-top: 3rem;
-    padding-bottom: 3rem;
     /*clip-path: polygon(0 6%, 100% 0, 100% 94%, 1% 100%);*/
-    color: #fffffe;
+    color: var(--bs-texto);
     text-align: center;
     background-image: url(https://besthqwallpapers.com/Uploads/4-5-2020/131705/thumb2-gray-abstraction-background-gray-background-with-gold-lines-black-background-luxury-backgrounds.jpg);
 }

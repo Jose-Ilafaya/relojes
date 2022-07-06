@@ -1,5 +1,5 @@
 .banner {
-    background-color: #1B1C1E;
+    background-color: var(--bs-principal);
 }
 
 .texto-banner {

@@ -1,3 +1,13 @@
-.footer{
-    background-color: #1B1C1E;
+.footer {
+    background-color: var(--bs-principal);
+}
+
+.centrado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-footer {
+    color: var(--bs-texto);
 }
