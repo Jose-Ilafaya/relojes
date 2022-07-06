@@ -104,5 +104,7 @@
             }
         }
     },
-    "defaultProject": "relojes"
+    "cli": {
+      "analytics": "1c9f3fb0-505f-4518-a533-28d9fe8ed9bb"
+    }
 }
