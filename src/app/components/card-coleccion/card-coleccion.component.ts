@@ -12,7 +12,22 @@ export class CardColeccionComponent implements OnInit {
   ngOnInit(): void {
     this.colecciones=[
       {
-        nombre:"kiwi",
+        nombre:"Clasico",
+        img:"../../../assets/imgs/AMAZFITGTR3-3.png",
+        descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
+      },
+      {
+        nombre:"Moderno",
+        img:"../../../assets/imgs/AMAZFITGTR3-3.png",
+        descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
+      },
+      {
+        nombre:"Deportivo",
+        img:"../../../assets/imgs/AMAZFITGTR3-3.png",
+        descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
+      },
+      {
+        nombre:"Lujuso",
         img:"../../../assets/imgs/AMAZFITGTR3-3.png",
         descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
       }

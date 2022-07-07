@@ -1,12 +1,18 @@
-<mat-card *ngFor="let coleccion of colecciones" class="example-card glass mt-2 mb-3">
-    <img mat-card-image src="{{coleccion.img}}" alt="Foto de la coleccion">
-    <mat-card-content>
-    </mat-card-content>
-    <!-- <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
-    </mat-card-actions>-->
-    <mat-card-header class="text-center">
-        <mat-card-title class="titulo">{{coleccion.nombre}}</mat-card-title>
-    </mat-card-header>
-</mat-card>
+<div class="container-fluid">
+    <div class="row">
+        <div *ngFor="let coleccion of colecciones" class="col-md-3 col-6">
+            <mat-card class=" card glass mt-2 mb-3">
+                <img mat-card-image src="{{coleccion.img}}" alt="Foto de la coleccion">
+                <mat-card-content>
+                </mat-card-content>
+                <!-- <mat-card-actions>
+                    <button mat-button>LIKE</button>
+                    <button mat-button>SHARE</button>
+                </mat-card-actions>-->
+                <mat-card-header class="text-center">
+                    <mat-card-title class="titulo"><h2>{{coleccion.nombre}}</h2></mat-card-title>
+                </mat-card-header>
+            </mat-card>
+            </div>
+    </div>    
+</div>
