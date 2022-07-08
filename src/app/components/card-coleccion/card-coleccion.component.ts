@@ -13,7 +13,7 @@ export class CardColeccionComponent implements OnInit {
     this.colecciones=[
       {
         nombre:"Clasico",
-        img:"../../../assets/imgs/AMAZFITGTR3-3.png",
+        img:"../../../assets/imgs/CURREN AVIATOR.jpg",
         descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
       },
       {
@@ -23,7 +23,7 @@ export class CardColeccionComponent implements OnInit {
       },
       {
         nombre:"Deportivo",
-        img:"../../../assets/imgs/AMAZFITGTR3-3.png",
+        img:"../../../assets/imgs/CURREN AVIATOR.jpg",
         descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
       },
       {

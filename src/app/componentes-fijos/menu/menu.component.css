@@ -1,11 +1,8 @@
 .navbar {
-    background: none!important;
+    background: none;
     font-size: 1.1rem;
 }
 
-.fixed-top {
-    position: fixed!important;
-}
 
 .btn {
     color: var(--bs-texto);

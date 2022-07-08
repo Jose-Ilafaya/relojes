@@ -7,10 +7,15 @@ import {MatSidenav} from '@angular/material/sidenav';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
+  color:boolean=false;
+  menuColor() {
+      
+  }
   constructor(){
+    
   }
   ngOnInit(): void {
-    
+
   }
   @ViewChild('sidenav')
   sidenav!: MatSidenav;
