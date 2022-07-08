@@ -7,6 +7,8 @@ import { MaterialModule } from '../material/material.module';
 import { ColeccionesComponent } from './colecciones/colecciones.component';
 import { CardColeccionComponent } from './card-coleccion/card-coleccion.component';
 import { BannerComponent } from './banner/banner.component';
+import {CarouselModule} from 'primeng/carousel';
+
 
 
 
@@ -27,7 +29,8 @@ import { BannerComponent } from './banner/banner.component';
   imports: [
     CommonModule,
     ComponentesFijosModule,
-    MaterialModule
+    MaterialModule,
+    CarouselModule
   ]
 })
 export class ComponentsModule { }
