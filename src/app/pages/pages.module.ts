@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ComponentsModule } from '../components/components.module';
 import { AboutComponent } from './about/about.component';
 import { NotPageFoundComponent } from './not-page-found/not-page-found.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -15,7 +16,11 @@ import { NotPageFoundComponent } from './not-page-found/not-page-found.component
   ],
   imports: [
     CommonModule,
-    ComponentsModule
+    ComponentsModule,
+    RouterModule
+  ],
+  exports:[
+    AboutComponent
   ]
 })
 export class PagesModule { }

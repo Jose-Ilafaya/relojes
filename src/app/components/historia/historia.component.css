@@ -1,0 +1,27 @@
+.container-fluid{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.about{
+    background-color: var(--bs-texto);
+}
+.about-img{
+    clip-path: polygon(0% 0, 92% 0%, 100% 100%, 0 100%);
+    background-size: cover;
+    padding: 0;
+}
+.texto-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--bs-principal);
+    background-color: var(--bs-texto);
+}
+@media (max-width: 765px) {
+    .about-img {
+        clip-path: polygon(0% 0, 100% 8%, 100% 100%, 0 100%)
+        ;
+    }
+}

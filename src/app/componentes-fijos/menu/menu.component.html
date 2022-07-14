@@ -19,27 +19,28 @@
     </div>
 </mat-sidenav-container>
 -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+<nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="../../../assets/imgs/logoblanco-sinfondo.png " width="70rem " alt=" ">
+        <a class="navbar-brand" href="#" routerLink="">
+            <img id="logo" src="../../../assets/imgs/logoblanco-sinfondo.png " width="60rem " alt="logotipo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button id="menuHamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="menuActivado()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class=" nav-item ">
-                    <a class="nav-link " aria-current="page " href="# ">Servicios</a>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink=""><i class="pi pi-home" style="font-size: 1.2rem"></i> Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#collections">Colecciones</a>
+                    <a class="nav-link" href="#collections"><i class="pi pi-compass" style="font-size: 1.2rem"></i> Colecciones</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="# ">Sobre nosotros</a>
+                    <a class="nav-link " routerLink="about"><i class="pi pi-book" style="font-size: 1.2rem"></i> Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Support</a>
+                    <a href="" class="nav-link"> <i class="pi pi-user" style="font-size: 1.2rem"></i> Iniciar Sesion
+                    </a>
                 </li>
             </ul>
         </div>

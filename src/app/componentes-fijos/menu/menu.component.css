@@ -1,8 +1,12 @@
 .navbar {
     background: none;
     font-size: 1.1rem;
+    transition: 0.5s;
 }
+.nav-link{
+    color: var(--bs-texto);
 
+}
 
 .btn {
     color: var(--bs-texto);
@@ -10,4 +14,9 @@
 
 .mat-drawer-transition .mat-drawer-backdrop {
     position: fixed;
+}
+
+.abajo {
+    background: var(--bs-boton);
+    transition: 0.5s;
 }

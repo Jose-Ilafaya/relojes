@@ -7,24 +7,21 @@ import {MatSidenav} from '@angular/material/sidenav';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-  color:boolean=false;
-  menuColor() {
-      
-  }
   constructor(){
-    
+    window.addEventListener("scroll",function(){
+      let menu= document.getElementById("menu");
+      //var logo=document.getElementById("logo")
+      menu?.classList.toggle("abajo",window.scrollY>0)
+    })
+
+  }
+  menuActivado(){
+    if(window.scrollY<1){
+      let menu=document.getElementById("menu");
+      menu?.classList.add("abajo")
+    }
   }
   ngOnInit(): void {
 
   }
-  @ViewChild('sidenav')
-  sidenav!: MatSidenav;
-
-  reason = '';
-
-  close(reason: string) {
-    this.reason = reason;
-    this.sidenav.close();
-   }
-
 }

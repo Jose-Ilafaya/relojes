@@ -1,27 +1,18 @@
-.container-fluid{
-    margin-left: 0;
-    margin-right: 0;
+.row{
+    background-color: var(--bs-principal);
 }
-
-.about{
-    background-color: var(--bs-texto);
-}
-.about-img{
-    clip-path: polygon(0% 0, 92% 0%, 100% 100%, 0 100%);
+.parallax-1{
+    background-image: url(https://i.pinimg.com/originals/bb/39/5a/bb395ad795aa79f8d977968adcb37a8f.png);
     background-size: cover;
-    padding: 0;
+
 }
-.texto-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: var(--bs-principal);
-    background-color: var(--bs-texto);
+.parallax-2{
+    background-image: url(../../../assets/imgs/edificio-actual.jpg);
+    background-size: cover;
 }
-@media (max-width: 765px) {
-    .about-img {
-        clip-path: polygon(0% 0, 100% 8%, 100% 100%, 0 100%)
-        ;
-    }
+.parallax{
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
 }

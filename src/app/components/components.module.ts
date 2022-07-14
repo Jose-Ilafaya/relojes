@@ -8,6 +8,9 @@ import { ColeccionesComponent } from './colecciones/colecciones.component';
 import { CardColeccionComponent } from './card-coleccion/card-coleccion.component';
 import { BannerComponent } from './banner/banner.component';
 import {CarouselModule} from 'primeng/carousel';
+import {ButtonModule} from 'primeng/button';
+import { HistoriaComponent } from './historia/historia.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -18,19 +21,23 @@ import {CarouselModule} from 'primeng/carousel';
     CarouselComponent,
     ColeccionesComponent,
     CardColeccionComponent,
-    BannerComponent
+    BannerComponent,
+    HistoriaComponent
   ],
   exports:[
     CardComponent,
     CarouselComponent,
     ColeccionesComponent,
-    BannerComponent
+    BannerComponent,
+    HistoriaComponent
   ],
   imports: [
     CommonModule,
     ComponentesFijosModule,
     MaterialModule,
-    CarouselModule
+    CarouselModule,
+    ButtonModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }

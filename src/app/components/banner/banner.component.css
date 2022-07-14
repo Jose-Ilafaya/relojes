@@ -8,3 +8,6 @@
     justify-content: center;
     flex-direction: column;
 }
+.p-button{
+    background-color: var(--bs-boton);
+}
