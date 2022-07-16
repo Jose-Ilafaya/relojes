@@ -5,6 +5,7 @@ import { ComponentsModule } from '../components/components.module';
 import { AboutComponent } from './about/about.component';
 import { NotPageFoundComponent } from './not-page-found/not-page-found.component';
 import { RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -12,7 +13,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     HomeComponent,
     AboutComponent,
-    NotPageFoundComponent
+    NotPageFoundComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,

@@ -4,11 +4,17 @@ import { ColeccionesComponent } from './components/colecciones/colecciones.compo
 import { HistoriaComponent } from './components/historia/historia.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { NotPageFoundComponent } from './pages/not-page-found/not-page-found.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
+  {path: 'home', redirectTo: '', pathMatch: 'full'},
   {path:'collections',component:ColeccionesComponent},
-  {path:'about',component:AboutComponent}
+  {path:'about',component:AboutComponent},
+  {path:'login',component:LoginComponent},
+  {path:'**',component:NotPageFoundComponent},
+
 ];
 
 @NgModule({

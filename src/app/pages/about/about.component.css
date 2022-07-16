@@ -2,7 +2,7 @@
     background-color: var(--bs-principal);
 }
 .parallax-1{
-    background-image: url(https://i.pinimg.com/originals/bb/39/5a/bb395ad795aa79f8d977968adcb37a8f.png);
+    background-image: url(../../../assets/imgs/pueblo.png);
     background-size: cover;
 
 }
@@ -11,8 +11,10 @@
     background-size: cover;
 }
 .parallax{
-    width: 100vw;
     height: 80vh;
     background-position: center;
     background-attachment: fixed;
+}
+.timeline{
+    background-color: var(--bs-texto);
 }

@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { ComponentesFijosModule } from './componentes-fijos/componentes-fijos.module';
 import { PagesModule } from './pages/pages.module';
+import {ScrollTopModule} from 'primeng/scrolltop';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PagesModule } from './pages/pages.module';
     MaterialModule,
     ComponentesFijosModule,
     PagesModule,
-    HttpClientModule
+    HttpClientModule,
+    ScrollTopModule
   ],
   providers: [],
   bootstrap: [AppComponent]
