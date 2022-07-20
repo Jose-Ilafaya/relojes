@@ -1,6 +1,22 @@
 [
     {
-        "nombre":"KW-324",
-        "descripcion":"89363"
+        "nombre":"Clasico",
+        "descripcion":"89363",
+        "imgReloj":"clasico.png"
+    },
+    {
+        "nombre":"Moderno",
+        "descripcion":"89363",
+        "imgReloj":"AMAZFITGTR3-3.png"
+    },
+    {
+        "nombre":"Lujoso",
+        "descripcion":"89363",
+        "imgReloj":"lujoso.png"
+    },
+    {
+        "nombre":"Deportivo",
+        "descripcion":"89363",
+        "imgReloj":"CURREN AVIATOR.jpg"
     }
 ]

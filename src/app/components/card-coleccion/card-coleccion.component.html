@@ -19,8 +19,8 @@
 <p-carousel [value]="colecciones" [numVisible]="4" [numScroll]="1" [responsiveOptions]="responsiveOptions" [circular]="true">
     <ng-template let-coleccion pTemplate="item">
         <div>
-            <mat-card class=" card glass mt-2 mb-3">
-                <img mat-card-image class="img-fluid" src="{{coleccion.img}}" alt="Foto de la coleccion">
+            <mat-card class=" card glass mt-2 mb-3" routerLink="coleccion">
+                <img mat-card-image class="img-fluid" src="../../../assets/imgs/{{coleccion.imgReloj}}" alt="Foto de la coleccion">
                 <mat-card-content>
                 </mat-card-content>
                 <!-- <mat-card-actions>

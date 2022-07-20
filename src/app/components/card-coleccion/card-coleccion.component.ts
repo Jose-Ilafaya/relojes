@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Reloj } from 'src/app/model/reloj';
+import { Coleccion } from 'src/app/model/coleccion';
+import { ColeccionesService } from 'src/app/services/colecciones.service';
 @Component({
   selector: 'app-card-coleccion',
   templateUrl: './card-coleccion.component.html',
@@ -8,11 +9,12 @@ import { Reloj } from 'src/app/model/reloj';
 
 })
 export class CardColeccionComponent implements OnInit {
-  colecciones:Reloj[]=[]
+  colecciones:Coleccion[]=[]
   responsiveOptions:any=[]
-  constructor() { }
+  constructor(private coleccionService:ColeccionesService) { }
 
   ngOnInit(): void {
+    this.coleccionService.getDataColecciones().subscribe(data => {this.colecciones=data});    
     this.responsiveOptions = [
       {
           breakpoint: '1024px',
@@ -30,7 +32,7 @@ export class CardColeccionComponent implements OnInit {
           numScroll: 1
       }
   ];
-    this.colecciones=[
+   /* this.colecciones=[
       {
         nombre:"Clasico",
         img:"../../../assets/imgs/clasico.png",
@@ -51,7 +53,7 @@ export class CardColeccionComponent implements OnInit {
         img:"../../../assets/imgs/lujoso.png",
         descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
       }
-    ]
+    ]*/
   }
 
 }

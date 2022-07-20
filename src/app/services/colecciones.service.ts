@@ -6,9 +6,12 @@ import {Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ColeccionesService {
-  private coleccionUrl="assets/data/coleccion-data.json"
+  public coleccionUrl="./assets/data/coleccion-data.json"
   constructor(private http:HttpClient) { }
-    getDataColeccion():Observable<Coleccion[]>{
+    getDataColecciones():Observable<Coleccion[]>{
       return this.http.get<Coleccion[]>(this.coleccionUrl)
+    }
+    getColeccion(nombre:string){
+      return this.http.get<Coleccion>(this.coleccionUrl + "/" + nombre)
     }
 }

@@ -6,6 +6,9 @@ import { AboutComponent } from './about/about.component';
 import { NotPageFoundComponent } from './not-page-found/not-page-found.component';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { ColeccionComponent } from './coleccion/coleccion.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ColeccionesService } from '../services/colecciones.service';
 
 
 
@@ -14,13 +17,19 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     AboutComponent,
     NotPageFoundComponent,
-    LoginComponent
+    LoginComponent,
+    ColeccionComponent
   ],
   imports: [
     CommonModule,
     ComponentsModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
+  providers:[
+    ColeccionesService
+  ],
+
   exports:[
     AboutComponent
   ]
