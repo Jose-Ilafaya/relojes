@@ -21,7 +21,7 @@
 -->
 <nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#" routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <a class="navbar-brand" routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">
             <img id="logo" src="../../../assets/imgs/logoblanco-sinfondo.png " width="60rem " alt="logotipo">
         </a>
         <button id="menuHamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="menuActivado()">
@@ -32,9 +32,15 @@
                 <li class="nav-item">
                     <a class="nav-link" routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page"><i class="pi pi-home" style="font-size: 1.2rem"></i> Inicio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#collections" routerLinkActive="active" ariaCurrentWhenActive="page"><i class="pi pi-compass" style="font-size: 1.2rem"></i> Colecciones</a>
-                </li>
+                <li class="nav-item dropdown" (click)="menuActivado()">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="pi pi-compass" style="font-size: 1.2rem"></i> Colecciones</a>
+                    <ul class="dropdown-menu text-center">
+                      <li><a class="nav-link" routerLink="clasico">Clasico</a></li>
+                      <li><a class="nav-link" routerLink="moderno">Moderno</a></li>
+                      <li><a class="nav-link" routerLink="deportivo">Deportivo</a></li>
+                      <li><a class="nav-link" routerLink="lujoso">Lujoso</a></li>
+                    </ul>
                 <li class="nav-item ">
                     <a class="nav-link " routerLink="about" routerLinkActive="active" ariaCurrentWhenActive="page"><i class="pi pi-book" style="font-size: 1.2rem"></i> Historia</a>
                 </li>

@@ -3,7 +3,7 @@
 
 /*ng serve --host 0.0.0.0*/
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 :root {
     --bs-principal: #000;
     --bs-texto: #fffffe;
@@ -11,7 +11,7 @@
 }
 
 * {
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 *::selection{
     background-color: var(--bs-boton);
@@ -28,7 +28,6 @@ body {
 }
 
 h1 {
-    font-size: xx-large;
     text-align: center;
 }
 

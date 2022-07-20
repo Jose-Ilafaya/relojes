@@ -20,7 +20,7 @@
     <ng-template let-coleccion pTemplate="item">
         <div>
             <mat-card class=" card glass mt-2 mb-3">
-                <img mat-card-image src="{{coleccion.img}}" alt="Foto de la coleccion">
+                <img mat-card-image class="img-fluid" src="{{coleccion.img}}" alt="Foto de la coleccion">
                 <mat-card-content>
                 </mat-card-content>
                 <!-- <mat-card-actions>
@@ -29,7 +29,7 @@
                 </mat-card-actions>-->
                 <mat-card-header class="text-center">
                     <mat-card-title class="titulo">
-                        <h4>{{coleccion.nombre}}</h4>
+                        <p class="h4">{{coleccion.nombre}}</p>
                     </mat-card-title>
                 </mat-card-header>
             </mat-card>

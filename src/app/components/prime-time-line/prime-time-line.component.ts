@@ -12,13 +12,13 @@ export class PrimeTimeLineComponent implements OnInit {
 
   ngOnInit(): void {
     this.events = [
-      {status: 'Ordered', date: '15/10/1875', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B', image: 'fundador.jpg'},
-      {status: 'Processing', date: '17/01/1882', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B'},
-      {status: 'Shipped', date: '01/12/1950', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B'},
-      {status: 'Delivered', date: '25/02/2020', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B'},
-      {status: 'Delivered', date: '07/06/2020', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B'},
-      {status: 'Delivered', date: '02/03/2020', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B'},
-      {status: 'Delivered', date: '12/05/2020', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B'},
+      {date: '1830', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B', image: 'fundador.jpg', info:'Se registra oficialmente como relojero en los registros del pueblo de Binn. Es el fundador del primer taller de la marca.'},
+      { date: '1882', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B',image:'reloj antiguo.webp', info:'orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard'},
+      {date: '1950', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B', info:'orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard'},
+      { date: '1970', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B', info:'orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard'},
+      { date: '1992', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B', info:'orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard'},
+      { date: '2010', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B', info:'orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard'},
+      { date: '2020', icon: PrimeIcons.ANGLE_DOWN, color: '#607D8B', info:'orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard'},
   ];
   }
 

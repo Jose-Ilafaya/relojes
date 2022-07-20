@@ -21,6 +21,13 @@ import { RouterModule } from '@angular/router';
 import { PrimeTimeLineComponent } from './prime-time-line/prime-time-line.component';
 import {TimelineModule} from 'primeng/timeline';
 import {CardModule} from 'primeng/card';
+import { PrimeLoginCardComponent } from './prime-login-card/prime-login-card.component';
+
+import {PasswordModule} from 'primeng/password';
+import {CheckboxModule} from 'primeng/checkbox';
+import {InputTextModule} from 'primeng/inputtext';
+
+
 
 
 
@@ -34,7 +41,8 @@ import {CardModule} from 'primeng/card';
     CardColeccionComponent,
     BannerComponent,
     HistoriaComponent,
-    PrimeTimeLineComponent
+    PrimeTimeLineComponent,
+    PrimeLoginCardComponent
   ],
   exports:[
     CardComponent,
@@ -42,7 +50,8 @@ import {CardModule} from 'primeng/card';
     ColeccionesComponent,
     BannerComponent,
     HistoriaComponent,
-    PrimeTimeLineComponent
+    PrimeTimeLineComponent,
+    PrimeLoginCardComponent
   ],
   imports: [
     CommonModule,
@@ -52,7 +61,10 @@ import {CardModule} from 'primeng/card';
     ButtonModule,
     RouterModule,
     TimelineModule,
-    CardModule    
+    CardModule,
+    PasswordModule,
+    CheckboxModule,
+    InputTextModule
   ]
 })
 export class ComponentsModule { }

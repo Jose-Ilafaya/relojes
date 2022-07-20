@@ -33,7 +33,7 @@ export class CardColeccionComponent implements OnInit {
     this.colecciones=[
       {
         nombre:"Clasico",
-        img:"../../../assets/imgs/CURREN AVIATOR.jpg",
+        img:"../../../assets/imgs/clasico.png",
         descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
       },
       {
@@ -47,8 +47,8 @@ export class CardColeccionComponent implements OnInit {
         descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
       },
       {
-        nombre:"Lujuso",
-        img:"../../../assets/imgs/AMAZFITGTR3-3.png",
+        nombre:"Lujoso",
+        img:"../../../assets/imgs/lujoso.png",
         descripcion:"iwwwwwwwwwwwwwojhaosijdoaisd"
       }
     ]
