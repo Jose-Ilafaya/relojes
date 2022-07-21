@@ -1,0 +1,14 @@
+.img-coleccion{
+    width: 60vh;
+}
+.banner-coleccion{
+    background-image: url(../../../assets/imgs/fondo-coleccion-moderno.jpg);
+    background-size: cover;
+}
+.info-coleccion{
+    max-width: 60%;
+    margin: 0 auto 24px auto;
+}
+.background-info{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.711922268907563) 33%, rgba(0,0,0,0.4206057422969187) 66%, rgba(0,0,0,0) 100%);}

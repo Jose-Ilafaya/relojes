@@ -1,4 +1,5 @@
 export interface Coleccion{
+    id:number,
     nombre:string,
     descripcion:string,
     imgReloj:string,

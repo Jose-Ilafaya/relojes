@@ -1,22 +1,32 @@
 [
     {
+        "id":0 ,
         "nombre":"Clasico",
         "descripcion":"89363",
-        "imgReloj":"clasico.png"
+        "imgReloj":"clasico.png",
+        "img1":"fondo-coleccion-moderno.jpg"
     },
     {
+        "id":1 ,
         "nombre":"Moderno",
         "descripcion":"89363",
-        "imgReloj":"AMAZFITGTR3-3.png"
+        "imgReloj":"AMAZFITGTR3-3.png",
+        "img1":"moderno1.png",
+        "img2":"moderno2.png",
+        "img3":"moderno3.webp"
     },
     {
+        "id":2 ,
         "nombre":"Lujoso",
         "descripcion":"89363",
-        "imgReloj":"lujoso.png"
+        "imgReloj":"lujoso.png",
+        "img1":"https://www.blancpain.com/sites/default/files/images/2021-09/villeret-bg_0.jpeg"
     },
     {
+        "id":3 ,
         "nombre":"Deportivo",
         "descripcion":"89363",
-        "imgReloj":"CURREN AVIATOR.jpg"
+        "imgReloj":"CURREN AVIATOR.jpg",
+        "img1":"fondo-coleccion-moderno.jpg"
     }
 ]

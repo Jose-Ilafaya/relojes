@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ColeccionesComponent } from './components/colecciones/colecciones.component';
-import { HistoriaComponent } from './components/historia/historia.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ColeccionComponent } from './pages/coleccion/coleccion.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -13,7 +12,7 @@ const routes: Routes = [
   {path: 'home', redirectTo: '', pathMatch: 'full'},
   {path:'collections',component:ColeccionesComponent},
   {path:'about',component:AboutComponent},
-  {path:'coleccion',component:ColeccionComponent},
+  {path:'coleccion/:id',component:ColeccionComponent},
   {path:'login',component:LoginComponent},
   {path:'**',component:NotPageFoundComponent},
 
