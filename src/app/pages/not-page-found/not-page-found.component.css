@@ -1,0 +1,7 @@
+.container-fluid{
+    background: var(--bs-principal);
+}
+.img{
+    position: relative;
+    width: 70%;
+}

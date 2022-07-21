@@ -7,7 +7,7 @@
 
     <div class="navbar navbar-dark fixed-top">
         <button class="btn ms-2" mat-icon-button (click)="sidenav.open()"><mat-icon>menu</mat-icon></button>
-        <a class=" ms-auto" href="">
+        <a class=" ms-auto" routerLinkActive="">
             <img src="../../../assets/imgs/logoblanco-sinfondo.png" width="70rem" alt="">
         </a>
         <button class="ms-auto btn" mat-icon-button>
@@ -36,10 +36,10 @@
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="pi pi-compass" style="font-size: 1.2rem"></i> Colecciones</a>
                     <ul class="dropdown-menu text-center">
-                      <li><a class="nav-link" routerLink="coleccion/0">Clasico</a></li>
-                      <li><a class="nav-link" routerLink="coleccion/1">Moderno</a></li>
-                      <li><a class="nav-link" routerLink="coleccion/2">Deportivo</a></li>
-                      <li><a class="nav-link" routerLink="coleccion/3">Lujoso</a></li>
+                      <li><a class="nav-link" [routerLink]="['/coleccion',0]">Clasico</a></li>
+                      <li><a class="nav-link" [routerLink]="['/coleccion',1]">Moderno</a></li>
+                      <li><a class="nav-link" [routerLink]="['/coleccion',2]">Lujoso</a></li>
+                      <li><a class="nav-link" [routerLink]="['/coleccion',3]">Deportivo</a></li>
                     </ul>
                 <li class="nav-item ">
                     <a class="nav-link " routerLink="about" routerLinkActive="active" ariaCurrentWhenActive="page"><i class="pi pi-book" style="font-size: 1.2rem"></i> Historia</a>

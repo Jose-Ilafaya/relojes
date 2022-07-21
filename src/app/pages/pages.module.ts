@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { ComponentsModule } from '../components/components.module';
 import { AboutComponent } from './about/about.component';
@@ -22,6 +23,7 @@ import { ColeccionesService } from '../services/colecciones.service';
   ],
   imports: [
     CommonModule,
+    BrowserAnimationsModule,
     ComponentsModule,
     RouterModule,
     HttpClientModule

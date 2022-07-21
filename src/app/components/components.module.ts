@@ -26,6 +26,7 @@ import { PrimeLoginCardComponent } from './prime-login-card/prime-login-card.com
 import {PasswordModule} from 'primeng/password';
 import {CheckboxModule} from 'primeng/checkbox';
 import {InputTextModule} from 'primeng/inputtext';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -54,6 +55,7 @@ import {InputTextModule} from 'primeng/inputtext';
     PrimeLoginCardComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     CommonModule,
     ComponentesFijosModule,
     MaterialModule,
